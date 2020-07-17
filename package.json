@@ -1,0 +1,29 @@
+{
+  "name": "factory-method-design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "git-commit-msg-linter": "^2.4.4",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayconcarlete/factory-method-design-pattern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayconcarlete/factory-method-design-pattern/issues"
+  },
+  "homepage": "https://github.com/mayconcarlete/factory-method-design-pattern#readme"
+}
