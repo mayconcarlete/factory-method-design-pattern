@@ -10,6 +10,7 @@ export class VocationFactory{
             case 'sorcerer':{
                 return new Sorcerer(characterOptions)
             }
+            default: throw new Error('You must provide a valid type.')
         }
     }
 }   
