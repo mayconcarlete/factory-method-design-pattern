@@ -2,7 +2,7 @@ import { Human } from '../inheritance/human'
 import {TCharacterOptions} from '../types/types'
 
 export class Sorcerer extends Human{
-    private readonly magicSkill:number
+    private magicSkill:number
    
     constructor(characterOptions:TCharacterOptions){
         const {name, health, maxHealth} = characterOptions
@@ -15,6 +15,9 @@ export class Sorcerer extends Human{
     }
 
     getMainSkill(){
-        return console.log(`You had ${this.magicSkill} sword skill`)
+        return console.log(`You have ${this.magicSkill} sword skill`)
+    }
+    setNewSkillLvl(skillLvl:number){
+        this.magicSkill = skillLvl
     }
 }

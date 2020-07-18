@@ -7,6 +7,15 @@ const harryPotter = vocationFactory.createCharacter('sorcerer', {name:'Harry Pot
 
 knightMare.displayInfo()
 harryPotter.displayInfo()
+
 knightMare.getMainSkill()
 harryPotter.getMainSkill()
+
+knightMare.setNewSkillLvl(4)
+harryPotter.setNewSkillLvl(10)
+
+knightMare.getMainSkill()
+harryPotter.getMainSkill()
+
+
 
